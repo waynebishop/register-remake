@@ -2,4 +2,47 @@
 	background-color: red; 
 }	*/
 
-/*Comment goes here*/
+body {
+	font-family: Arial;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e5005f;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	font-size: x-large;
+}
+
+nav li a:hover,
+#active {
+	background-color: #333333;
+}
+
+nav {
+	padding: 10px 0 0 10px;
+}
+
+nav > a {
+	display: block;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+nav > a:hover {
+	color: #e5005f;
+}
+
+
+
