@@ -131,9 +131,20 @@ article img {
 	position: relative; /* so that #scroll-left & right above are positioned relative to parent #relative */
 }
 
+.related h1 {
+	background-color: white; /* to create illusion of HR lines either side of h1 */
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2; /* Z index to put on a higher layer than hr below as they are both position: relative */
 
+}
 
-
+.related hr {
+	position: relative;
+	top: -20px;
+}
 
 
 
