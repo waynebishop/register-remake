@@ -68,17 +68,68 @@ article img {
 	max-width: 100%;  /* to restrict size of image to size of content container */
 }
 
+.related div {
+	width: 240px;
+	text-align: center;
+}
 
+.related:after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
+.related div:nth-of-type(1) {
+	float: left;
+	margin-left: 60px;
+}
 
+.related div:nth-of-type(2) {
+	float: right;
+	margin-right: 60px;
+}
 
+.related img {
+	border-radius: 50%; /* Turn square images into circles*/
+}
 
+.related div a {
+	background-color: #e5005f;
+	display: block;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: -20px; /* Pull the anchor up to the image*/
+	position: relative; /* bring anchor to the fore to be over the image */
+	white-space: nowrap; /* stops text wraparound*/
+	overflow: hidden; /* hide the overflow*/
+	text-overflow: ellipsis; /* put in an ellipsis ... */
+}
 
+/* CSS for left & right arrows */
+#scroll-left,
+#scroll-right {
+	font-size: 42px;
+	border: none;
+	background-color: transparent;  /* Note transparent color */
+	cursor: pointer; /* change to Mickey Mouse hand */
+	color: #e5005f;
+	position: absolute;
+	top: 40%;
+}
 
+#scroll-left {
+	left: 0;
+}
 
+#scroll-right {
+	right: 0;
+}
 
-
-
+.related {
+	position: relative; /* so that #scroll-left & right above are positioned relative to parent #relative */
+}
 
 
 
