@@ -29,6 +29,8 @@ nav li a:hover,
 
 nav {
 	padding: 10px 0 0 10px;
+	width: 240px;
+
 }
 
 nav > a {
