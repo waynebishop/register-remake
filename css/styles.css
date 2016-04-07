@@ -249,6 +249,7 @@ article img {
 	color: #333333;
 	text-decoration: none;
 }
+
 #top-5 article {
 	border-bottom: 1px dashed #dddddd;
 	padding-bottom: 10px;
@@ -275,6 +276,37 @@ article img {
 	text-transform: none;  /* none means show as writtn in html ie sentence case */
 	font-size: small;
 }
+
+#property-listings {
+	background-color: orange;
+
+	border: 3px solid blue;
+}
+
+#property-listings img {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#property-listings a {
+	font-size: 16px;
+	color: #333333;
+	text-decoration: none;
+}
+
+#property-listings article {
+	border-bottom: 1px dashed #dddddd;
+	padding-bottom: 10px;
+}
+
+#property-listings article:after {  /* clear fix */
+	content: '';
+	display: block;
+	clear: both;
+} 
+
+
 
 
 
