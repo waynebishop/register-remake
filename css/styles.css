@@ -164,8 +164,31 @@ article img {
 	color: inherit;
 }
 
+#newsletter p {
+	text-align: right;
+	padding-right: 60px;
+	font-weight: bold;
+}
 
+#newsletter {
+	background-color: #dddddd;
+	padding: 20px 0;
+	background-image: url(../img/envelope2.png);   /* for background image of envelope + see next few lines */
+	background-repeat: no-repeat; /* turn off auto repeat of image */
+	background-position: 10px center; /* reposition image center Y axis but 10px in from left side */
+}
 
+#newsletter a {
+	color: white;
+	text-decoration: none;
+	background-color: #e5005f;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#newsletter a:hover {
+	background-color: #333333;
+}
 
 
 
