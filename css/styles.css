@@ -4,6 +4,7 @@
 
 body {
 	font-family: Arial;
+	padding-left: 280px; /* to move content body away from edge & side nav */
 }
 
 nav ul {
@@ -30,6 +31,8 @@ nav li a:hover,
 nav {
 	padding: 10px 0 0 10px;
 	width: 240px;
+	position: fixed;  /* position: fixed; AND left: 10px; below set the position of the side nav*/
+	left: 10px;
 
 }
 
@@ -45,6 +48,46 @@ nav > a {
 nav > a:hover {
 	color: #e5005f;
 }
+
+main aside p {
+	background-color: #dddddd;
+	padding: 10px;
+
+} 
+
+main {
+	width: 40%;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #dddddd;
+}
+
+article img {
+	max-width: 100%;  /* to restrict size of image to size of content container */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
