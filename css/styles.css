@@ -150,6 +150,7 @@ article img {
 #extra {
 	width: 49%;
 	float: right;
+	background-color: #eeeeee;
 }
 
 #social {
@@ -190,15 +191,74 @@ article img {
 	background-color: #333333;
 }
 
+#left {
+	width: 50%;
+	float: left;
+	padding-right: 15px; /* make space in between left & right */
+	padding-left: 15px; 
+	box-sizing: border-box;
+}
 
+#right {
+	width: 50%;
+	float: right;
+	padding-left: 15px; /* make space in between left & right */
+	padding-right: 15px;
+	box-sizing: border-box;
+}
 
+#extra section > h1 { /* applies to all h1's that are direct decendent of a section within extra */
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 5px;
+}
 
+#comments img {
+	float: left;
+	margin-right: 10px;
+}
 
+#comments p a {  /* only pick out achors within a paragraph ie descendant of a paragraph. So then achors outside not affected */
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+}
 
+#comments p a:hover {
+	color: #111111;
+	text-decoration: underline;
+}
 
+#comments article > a {   /* only grab achors that are a direct descendant of the article element */
+	color: #e5005f;
+	text-decoration: none;
+}
 
+#extra section {
+	margin-bottom: 60px;
+}
 
+#top-5 img {
+	float: left;
+	margin-right: 10px;
+}
 
+#top-5 a {
+	font-size: 16px;
+	color: #333333;
+	text-decoration: none;
+}
+#top-5 article {
+	border-bottom: 1px dashed #dddddd;
+	padding-bottom: 10px;
+}
+
+#top-5 article:after {  /* clear fix */
+	content: '';
+	display: block;
+	clear: both;
+} 
 
 
 
