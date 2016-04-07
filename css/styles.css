@@ -260,6 +260,22 @@ article img {
 	clear: both;
 } 
 
+#sponsors img {    /* Tricky example of formatting image arrangement for sponsors */
+	width: calc(33.33% - 10px);  /* 1/3 less 5px margin left & right ie 33.33% - 10px */
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #dddddd;
+	margin: 5px;
+}
+
+#property h1 span {
+	color: #777777;
+	display: block;
+	text-transform: none;  /* none means show as writtn in html ie sentence case */
+	font-size: small;
+}
+
 
 
 
